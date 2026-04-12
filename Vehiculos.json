@@ -1,0 +1,12 @@
+[
+    {
+        "P352DNN": {
+            "Tipo de Vehiculo": "Carro",
+            "Placa": "P352DNN",
+            "Year": 2004,
+            "Modelo": "Yaris",
+            "Marca": "Toyota",
+            "Disponibilidad": true
+        }
+    }
+]
