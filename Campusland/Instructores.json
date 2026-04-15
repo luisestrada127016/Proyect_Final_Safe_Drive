@@ -1,0 +1,11 @@
+[
+{
+    "123456123": {
+        "Nombre": "Peter Parker",
+        "DPI": "123456123",
+        "Tipo de Vehiculo": "Carro",
+        "Horario": "AM",
+        "disponibilidad": true
+    }
+    }
+]

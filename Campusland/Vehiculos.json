@@ -1,0 +1,12 @@
+[
+{
+    "P123DNN": {
+        "Tipo de Vehiculo": "Carro",
+        "Placa": "P123DNN",
+        "Year": 2004,
+        "Modelo": "Yaris",
+        "Marca": "Toyota",
+        "Disponibilidad": true
+    }
+}
+]

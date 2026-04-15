@@ -7,11 +7,14 @@ from Creacion_Vehiculos import creacion_vehiculo
 
 from Consultas import consultar_cliente, consultar_instructor, consultar_vehiculo, consultar_cita
 
-from Programcion_de_Citas import creacion_cita
+from Programcion_de_Citas import creacion_cita, cerrar_cita
+
+from Evaluaciones import menu_evaluaciones
 
         
 # =========================== INICIO DEL PROGRAMA ===========================
 
+#hola
 
 def menu_principal():
     while True:
@@ -31,7 +34,8 @@ def menu_principal():
             "\nSeleccione una opcion: "
             "\n1. Agregar Info + "
             "\n2. Consultar Info "
-            "\n3. Salir "
+            "\n3. Evaluaciones"
+            "\n4. Salir "
             "\nOpcion: "
         ))
 
@@ -40,8 +44,9 @@ def menu_principal():
 
         elif opcion == 2:
             menu_consultar()
-
         elif opcion == 3:
+            menu_evaluaciones()
+        elif opcion == 4:
             print("Cerrando programa...")
             break
         else:
@@ -55,7 +60,8 @@ def menu_agregar():
             "\n2. Agregar Vehiculo "
             "\n3. Agregar Instructor "
             "\n4. Crear cita "
-            "\n5. Volver al menú principal "
+            "\n5. Cerrar cita "
+            "\n6. Volver al menú principal "
             "\nOpcion: "
         ))
 
@@ -68,6 +74,8 @@ def menu_agregar():
         elif opcion == 4:
             creacion_cita()
         elif opcion == 5:
+            cerrar_cita()
+        elif opcion == 6:
             break
         else:
             print("Opcion no valida. Intente de nuevo...")
